@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <head>
-  <title>Alan Partridge Soundboard</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Embedded Video</title>
+
+    <style>
+        /* Remove default spacing */
+        body {
+            margin: 0;
+            height: 100vh;
+
+            /* Centering (horizontal + vertical) */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #b75050;
+        }
+
+        video {
+            max-width: 80%;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="container">
+    <video controls loop poster="Ekaki.png">
+        <source src="Rum Rum Rum.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
-  <!-- this contains the text speaker -->
-  <div class="tts">
-    <h2>PSYCHEDELIC FISH</h2>
-    <textarea id="text" placeholder="Type Here"></textarea>
-    <button onclick="speakText()">Say it</button>
-  </div>
-
-  <div class="soundboard">
-    <center>
-    <h2>Sample Bank</h2>
-    </center>
-
-    <div class="grid" id="grid"></div>
-
-    <div class="controls">
-      <button id="prev" onclick="prevPage()">⬅</button>
-      <button id="next" onclick="nextPage()">➡</button>
-    </div>
-
-  </div>
-  <div class="video-container">
-  <video autoplay loop muted poster="poster.jpg">
-    <source src="video.mp4" type="video/mp4">
-  </video>
-</div>
-
-</div>
-
-<script src="index.js"></script>
 </body>
 </html>
