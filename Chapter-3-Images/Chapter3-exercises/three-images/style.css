@@ -1,25 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #aada6b;
-    padding: 20px;
-}
-
-h1 {
-    color: blue;
     text-align: center;
-}
-
-h2 {
-    color: green;
-    margin-top: 30px;
-}
-
-p {
-    color: #333;
-    line-height: 1.5;
+    background-color: #ecee6d;
 }
 
 img {
-    margin: 10px 0;
-    border: 1px solid #ccc;
+    filter: brightness(90%) contrast(120%) saturate(130%);
+    border-radius: 10px;
+    margin: 10px;
 }
