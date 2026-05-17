@@ -21,9 +21,7 @@ body {
     transition: transform 0.2s;
 }
 
-.color-box:hover {
-    transform: scale(1.1);
-}
+
 
 /* Button */
 button {
