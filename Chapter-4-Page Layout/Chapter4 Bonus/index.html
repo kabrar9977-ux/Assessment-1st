@@ -1,51 +1,83 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-    <title>Study Planner BY FBT</title>
+    <title>Study Planner</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<center>
+
+    <!-- Header -->
     <header>
         <h1>Web Development Study Planner</h1>
     </header>
-</center>
+
+    <!-- Navigation -->
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Modules</a></li>
-            <li><a href="#">Tasks</a></li>
-            <li><a href="#">Progress</a></li>
-        </ul>
+        <a href="#">Home</a>
+        <a href="#">Topics</a>
+        <a href="#">Tasks</a>
+        <a href="#">Contact</a>
     </nav>
 
+    <!-- Main Content -->
     <main>
 
-        <section class="column">
+        <!-- Column 1 -->
+        <section class="box">
             <h2>Topics</h2>
 
             <article>
-                <h3>HTML Basics</h3>
-                <p>Learn structure, tags, and headers.</p>
-                <button>View</button>
+                <h3>HTML</h3>
+                <p>Learn headings, paragraphs and images.</p>
+                <button>Open</button>
             </article>
 
             <article>
-                <h3>CSS Styling</h3>
-                <p>Understand layouts, colors, and borders.</p>
-                <button>View</button>
+                <h3>CSS</h3>
+                <p>Learn colours, borders and styling.</p>
+                <button>Open</button>
             </article>
         </section>
 
-        <section class="column">
+        <!-- Column 2 -->
+        <section class="box">
             <h2>Tasks</h2>
 
             <article>
-                <h3>Create Web Page</h3>
-                <p>Building a basic webpage using HTML and CSS.</p>
+                <h3>Create Page</h3>
+                <p>Make a simple webpage using HTML.</p>
                 <button>Start</button>
             </article>
+
             <article>
-                <h3>Responsive Design</h3>
-                <p>Make your page both mobile and desktop friendly.</p>
+                <h3>Add Style</h3>
+                <p>Add colours and background using CSS.</p>
                 <button>Start</button>
             </article>
+        </section>
+
+        <!-- Column 3 -->
+        <section class="box">
+            <h2>Wireframe</h2>
+
+            <img src="wireframes.png" alt="wireframe image">
+
+            <article>
+                <h3>Final Check</h3>
+                <p>Check all files before submission.</p>
+                <button>Check</button>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created by FBT Student</p>
+    </footer>
+
+</body>
+
+</html>
